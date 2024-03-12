@@ -1,29 +1,49 @@
-<!--HTML-Grundgerüst über die Eingabe von html und dann html:5 auswählen-->
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device.width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>FunkenBank - Login</title>
-    </head>
-    <body>
-        <!--Der header soll die Seite strukturieren und bekommt entsprechende Styles zugewiesen-->
-        <header>
-           <h1>Herzlich Wilkommen bei der FunkenBank</h1>
-        </header>
-        <!--Formularfelder müssen in Form-Tags eingebettet werden-->
-        <form>
-            <!--Die Labels beschreiben die Textboxen, br bricht die Zeile um-->
-            <label>Benutzername</label><br>
-            <input><br>
-            <label>Passwort</label><br>
-            <input type="password"><br>
-            <br>
-            <button>Einloggen</button>
-        </form>
-        <footer>
-            &#169; 2024 FunkenBank AG
-        </footer>
-    </body>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/fonts/css/all.min.css" />
+    <title>FunkenBank</title>
+    
+</head>
+<body>
+
+<header>
+    <img src="money-576443_1280.webp" alt="Banklogo" width="150" height="150">
+    <div>
+        <p>Ansprechpartner/in: Karoline Funken</p>
+        <nav>
+            <a href="hilfe.html"><img src="idea-153974_1280.webp" alt="Hilfe" width="30" height="30"></a>
+            <a href="profil.html"><img src="pfad/zum/profil-icon.jpg" alt="Profil" width="30" height="30"></a>
+            <a href="postfach.html"><img src="pfad/zum/postfach-icon.jpg" alt="Postfach" width="30" height="30"></a>
+            <a href="agb.html"><img src="pfad/zum/agb-icon.jpg" alt="AGB" width="30" height="30"></a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h1>Willkommen bei unserer Bank!</h1>
+    
+    <button onclick="window.location.href='kontenuebersicht.html'">Kontenübersicht</button>
+    <button onclick="window.location.href='ueberweisung.html'">Überweisung ausführen</button>
+    <!-- Weitere Inhalte hier -->
+</main>
+
+<footer>
+    <div>
+        <img src="Facebook_Logo_(2019).png" alt="Facebook" width="30" height="30">
+        <img src="instagram_Logo.jpg.jpg" alt="Instagram" width="30" height="30">
+    </div>
+    <a href="https://www.deine-bank.de">www.funken-bank.de</a>
+    <p>Geschäftsführer: Karoline Funke</p>
+    <p>Geschäftsstiz:Langelerskolk 24 <br>
+        46342 <br>
+    Velen/Ramsdorf </p>
+    <p>Rechtsform: AG</p>
+    <p>Kontaktdaten: info@funken-bank.de</p>
+</footer>
+
+</body>
 </html>
