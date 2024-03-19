@@ -1,9 +1,11 @@
+/* Der folgende Style wirkt auf eine class namens styles.css
+eine Class wird in der styles.css immer mit einem führenden punkt dargestellt.*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     background-color: DodgerBlue;
   }
-  
+  /* Der folgende Style wirkt auf alle DIVs innerhalb eines felx-containers*/
   .flex-container > div {
     background-color: #f1f1f1;
     width: 100px;
@@ -48,7 +50,7 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    color: rgb(35, 199, 44);
+    color: rgb(234, 244, 252);
   }
   
   /* selected link */
